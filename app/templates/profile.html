@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Website - About</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+    </head>
+
+    <body>
+        <div class="box1">
+            <div class="image">
+                <img src="{{url_for('static', filename='Profile.png')}}" alt="Donielle Hope">
+
+                <br>
+                <br>
+
+                <div class="name">
+                    <h1>Donielle Hope</h1>
+                </div>
+
+                <div class="handle">
+                    <h4>@dhope</h4>
+                </div>
+
+                <div class="location">
+                    <h4>Kingston, Jamaica</h4>
+                </div>
+                
+                <div class="join">
+                    <h4>Joined {{ date }}</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="box2">
+
+            <div class="description">
+                <br>
+
+                <h4>I am intelligent and creative young man who loves coding, website designing and playing video games. Contact me if you would like to be friends or work on a project together.</h4>
+            </div>
+
+            <div class="contain">
+                <div class="follow">
+                    <h2 class="first">7</h2> <h2 class="first">100</h2>  <h2 class="first">250</h2> <h2 class="second">Posts</h2> <h2 class="second">Following</h2>  <h2 class="second">Followers</h2>
+                </div>
+
+                <button>Follow</button>
+            </div>
+        </div>
+    </body>
+</html>
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Website - About</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+    </head>
+
+    <body>
+        <div class="box1">
+            <div class="image">
+                <img src="{{url_for('static', filename='Profile.png')}}" alt="Donielle Hope">
+            </div>
+        </div>
+
+        <div class="box2">
+
+        </div>
+    </body>
+</html>

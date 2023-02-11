@@ -1,3 +1,90 @@
 body {
     padding-top: 5rem;
 }
+
+.box1{
+    height: 510px;
+    background-image: radial-gradient(#9db8a1 5%, #599b63 70%);
+    text-align: center;
+    padding: 70px 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.box2{
+    height: 510px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-left: 2px solid rgb(178, 177, 177);
+    border-right: 2px solid rgb(178, 177, 177);
+    border-bottom: 2px solid rgb(178, 177, 177);
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.name{
+    color: white;
+}
+
+.name h1{
+    text-shadow: 2px 2px 5px #3c7544;
+}
+
+.box1 h4{
+    color: white;
+    text-shadow: 2px 2px 5px #3c7544;
+    font-size: 20px;
+}
+
+.description{
+    width: 700px;
+    color: rgb(161, 159, 159);
+    position:absolute;
+}
+
+.follow{
+    position: relative;
+    top: 120px;
+}
+
+.follow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px;
+    grid-column-gap: 100px;
+    grid-row-gap: 10px;
+    padding: 10px;
+    position: relative;
+    top: 160px;
+}
+
+.first{
+    text-align: center;
+}
+
+.second{
+    color: rgb(161, 159, 159);
+    text-align: center;
+}
+
+button{
+    position: relative;
+    left: 200px;
+    top: 170px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #7ed321;
+    color: white;
+    border: none;
+}
